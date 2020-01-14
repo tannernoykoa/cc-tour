@@ -1,0 +1,43 @@
+#N canvas 5 23 374 645 10;
+#X text 130 10 C O N C E P T U A L;
+#X text 133 12 C O N C E P T U A L;
+#X text 142 181 P R A C T I C A L;
+#X text 145 184 P R A C T I C A L;
+#X text 126 332 A B S T R A C T I O N S;
+#X text 5 28 "cymatics" is the pseudo-scientific practice of using
+sound to promote health and healing in organic beings. the idea is
+that sine waves of specific frequencies resonate inside the body in
+such a way as to energize/activate various organs \, bodily functions
+\, states of being \, emotions \, etc... by using cymatic frequencies
+as signals \, rather than audio \, i attempt to embed their supposed
+healing properties in other sounds. silent \, formless \, their resonance
+penetrates the very nature of the sounds they modulate. in this way
+\, music created with this system reappropriates and subverts themes
+of "new age" music \, expanding the sound palette beyond the narrow
+confines of ambient / minimalist.;
+#X text 129 335 A B S T R A C T I O N S;
+#X obj 54 385 cymatic-indiv-outs;
+#X obj 183 385 ringmod~;
+#X obj 255 385 pitchdelayL~;
+#X obj 202 417 pitchdelayR~;
+#X obj 124 417 freeverb~;
+#X text 5 199 this patch uses cymatic frequencies to trigger envelopes
+which \, in turn \, control a series of audio effects. the cymatic
+abstraction receives input data from [sigmund~]. [sigmund~] \, in this
+case \, monitors the amplitude from the incoming [adc~] audio: if the
+signal is loud enough \, a randomly-selected cymatic frequency is triggered.
+these frequencies are each associated with a specific parameter of
+a specific effect. the effects are duplicated in stereo with independent
+control \, so the resulting sound is best heard with headphones or
+a pair of matching speakers.;
+#X text 23 349 please open and explore these abstractions for more
+info \, and credit where applicable.;
+#X text 126 565 tannernoykoa@gmail.com;
+#X text 163 552 t. noykoa;
+#X text 148 467 T H A N K Y O U;
+#X text 151 470 T H A N K Y O U;
+#X text 5 484 unfortunately \, as a slave of capitalism \, i am not
+able to be here tonight. but please feel free to reach out with questions
+and/or comments! i would be overjoyed to discuss and share my patch
+;
+#X text 155 579 626-513-9186;
